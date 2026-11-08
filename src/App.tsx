@@ -8,6 +8,7 @@ import ShowroomPage from './pages/ShowroomPage'
 import ModelShowcasePage from './pages/ModelShowcasePage'
 import ConfiguratorPage from './pages/ConfiguratorPage'
 import ModelsPage from './pages/ModelsPage'
+import AboutUsPage from './pages/AboutUsPage'
 
 function App() {
     const location = useLocation()
@@ -32,6 +33,7 @@ function App() {
                     <Route path="/models/:id" element={<ModelShowcasePage />} />
                     <Route path="/models" element={<ModelsPage />} />
                     <Route path="/showroom" element={<ShowroomPage />} />
+                    <Route path="/about-us" element={<AboutUsPage />} />
                 </Routes>
             </main>
             <Footer />

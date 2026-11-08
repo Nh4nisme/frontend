@@ -18,6 +18,7 @@ const routeLabels: Record<string, string> = {
     '/showroom': 'Showrooms',
     '/news': 'News',
     '/about': 'About Us',
+    '/about-us': 'About Us',
     '/contact': 'Contact',
     '/ownership': 'Ownership',
     '/motorsport': 'Motorsport',
