@@ -127,9 +127,9 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-lambo-primary transition-colors">
+                  <Link to="/contact" className="text-gray-400 hover:text-lambo-primary transition-colors">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
